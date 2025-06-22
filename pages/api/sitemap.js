@@ -1,5 +1,6 @@
 export default async function handler(req, res) {
   const baseUrl = 'https://mi-proyecto-seo.vercel.app';
+  
 
   const urls = [
     '/',
