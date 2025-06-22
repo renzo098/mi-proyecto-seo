@@ -1,20 +1,16 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Mi Sitio Optimizado - Home</title>
-        <meta name="description" content="Aprende sobre optimización SEO y rendimiento en Next.js." />
-        <meta name="keywords" content="Next.js, SEO, optimización web" />
-        <meta property="og:title" content="Mi Sitio Optimizado" />
-        <meta property="og:description" content="Descubre técnicas avanzadas para mejorar tu web con Next.js." />
+        <title>Inicio | Mi Proyecto SEO</title>
+        <meta name="description" content="Página principal optimizada con Next.js para mejorar SEO." />
+        <meta property="og:title" content="Inicio | Mi Proyecto SEO" />
+        <meta property="og:description" content="Descubre contenido optimizado con Next.js y SEO avanzado." />
         <meta property="og:image" content="/images/seo-image.png" />
-        <meta property="og:type" content="website" />
       </Head>
-
-      <h1>Bienvenido a mi página optimizada</h1>
-      <p>Aprende cómo mejorar el rendimiento y SEO en Next.js.</p>
+      <h1>Bienvenido a la página de inicio</h1>
     </>
   );
 }
